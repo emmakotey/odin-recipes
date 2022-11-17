@@ -9,7 +9,10 @@ html {
   background-color: burlywood;
   scroll-behavior: smooth;
 }
-
+.sup {
+  color:chartreuse;
+  font-size:30px;
+}
 h1 {
   font-family: 'Titan One', 'Times New Roman', Times, serif;
   font-size: 48px;
@@ -134,22 +137,22 @@ p {
   object-fit: cover;
   flex: 1 1 auto;
   max-width: 300px;
-  border: 15px solid burlywood;
+  border: 10px solid chartreuse;
   border-radius: 50%;
   box-shadow: 2px 2px 3px;
 }
 
-.meow-button {
+.woof-button {
   font-weight: 900;
-  padding: 4px 24px;
+  padding: 4px 20px;
   border-radius: 4px;
   background-color: rgb(230, 250, 250);
   align-self: center;
 }
 
-.meow-button:hover {
+.woof-button:hover {
   cursor: pointer;
-  background-color: lightblue;
+  background-color: chartreuse;
   box-shadow: 1px 1px burlywood;
 }
 
